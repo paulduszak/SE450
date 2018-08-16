@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Facilities>
+	<Facility>
+		<Name>Seattle, WA</Name>
+		<ProcessRate>8</ProcessRate>
+		<Cost>300</Cost>
+		<Neighbor>
+			<Name>Fargo, ND</Name>
+			<Distance>1426</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>San Francisco, CA</Name>
+			<Distance>808</Distance>
+		</Neighbor>
+		<Item>
+			<id>ABC123</id>
+			<quantity>45</quantity>
+		</Item>
+		<Item>
+			<id>JBL3100</id>
+			<quantity>52</quantity>
+		</Item>
+		<Item>
+			<id>PL132-C</id>
+			<quantity>54</quantity>
+		</Item>
+		<Item>
+			<id>PU238</id>
+			<quantity>60</quantity>
+		</Item>
+	</Facility>
+	<Facility>
+		<Name>San Francisco, CA</Name>
+		<ProcessRate>12</ProcessRate>
+		<Cost>300</Cost>
+		<Neighbor>
+			<Name>Seattle, WA</Name>
+			<Distance>808</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Denver, CO</Name>
+			<Distance>1249</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Los Angeles, CA</Name>
+			<Distance>382</Distance>
+		</Neighbor>
+		<Item>
+			<id>RL123A</id>
+			<quantity>40</quantity>
+		</Item>
+		<Item>
+			<id>XLK200B</id>
+			<quantity>8</quantity>
+		</Item>
+		<Item>
+			<id>SR71-D</id>
+			<quantity>81</quantity>
+		</Item>
+		<Item>
+			<id>CT1928</id>
+			<quantity>46</quantity>
+		</Item>
+	</Facility>
+		<Facility>
+		<Name>Los Angeles, CA</Name>
+		<ProcessRate>10</ProcessRate>
+		<Cost>300</Cost>
+		<Neighbor>
+			<Name>San Francisco, CA</Name>
+			<Distance>382</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Phoenix, AZ</Name>
+			<Distance>372</Distance>
+		</Neighbor>
+		<Item>
+			<id>RX100-3</id>
+			<quantity>57</quantity>
+		</Item>
+		<Item>
+			<id>JBL3100</id>
+			<quantity>60</quantity>
+		</Item>
+		<Item>
+			<id>E241i</id>
+			<quantity>44</quantity>
+		</Item>
+		<Item>
+			<id>XTP202</id>
+			<quantity>32</quantity>
+		</Item>
+	</Facility>
+	<Facility>
+		<Name>Phoenix, AZ</Name>
+		<ProcessRate>8</ProcessRate>
+		<Cost>300</Cost>
+		<Neighbor>
+			<Name>Los Angeles, CA</Name>
+			<Distance>372</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Santa Fe, NM</Name>
+			<Distance>480</Distance>
+		</Neighbor>
+		<Item>
+			<id>RX100-3</id>
+			<quantity>18</quantity>
+		</Item>
+		<Item>
+			<id>SR71-D</id>
+			<quantity>55</quantity>
+		</Item>
+		<Item>
+			<id>SN-241-L</id>
+			<quantity>22</quantity>
+		</Item>
+		<Item>
+			<id>ZTF109</id>
+			<quantity>54</quantity>
+		</Item>
+	</Facility>
+	<Facility>
+		<Name>Denver, CO</Name>
+		<ProcessRate>10</ProcessRate>
+		<Cost>300</Cost>
+		<Neighbor>
+			<Name>San Francisco, CA</Name>
+			<Distance>1249</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Santa Fe, NM</Name>
+			<Distance>392</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Fargo, ND</Name>
+			<Distance>889</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>St. Louis, MO</Name>
+			<Distance>851</Distance>
+		</Neighbor>
+		<Item>
+			<id>ABC123</id>
+			<quantity>80</quantity>
+		</Item>
+		<Item>
+			<id>RL123A</id>
+			<quantity>110</quantity>
+		</Item>
+		<Item>
+			<id>RTF110</id>
+			<quantity>100</quantity>
+		</Item>
+	</Facility>
+	<Facility>
+		<Name>Santa Fe, NM</Name>
+		<ProcessRate>8</ProcessRate>
+		<Cost>300</Cost>
+		<Neighbor>
+			<Name>Phoenix, AZ</Name>
+			<Distance>480</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Denver, CO</Name>
+			<Distance>392</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>St. Louis, MO</Name>
+			<Distance>1032</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Austin, TX</Name>
+			<Distance>688</Distance>
+		</Neighbor>
+		<Item>
+			<id>RX100-3</id>
+			<quantity>144</quantity>
+		</Item>
+		<Item>
+			<id>CR2032</id>
+			<quantity>280</quantity>
+		</Item>
+	</Facility>
+	<Facility>
+		<Name>Fargo, ND</Name>
+		<ProcessRate>8</ProcessRate>
+		<Cost>300</Cost>
+		<Neighbor>
+			<Name>Seattle, WA</Name>
+			<Distance>1426</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Denver, CO</Name>
+			<Distance>889</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Chicago, IL</Name>
+			<Distance>643</Distance>
+		</Neighbor>
+		<Item>
+			<id>ABC123</id>
+			<quantity>25</quantity>
+		</Item>
+		<Item>
+			<id>JBL3100</id>
+			<quantity>32</quantity>
+		</Item>
+		<Item>
+			<id>XLK200B</id>
+			<quantity>82</quantity>
+		</Item>
+	</Facility>
+		<Facility>
+		<Name>Austin, TX</Name>
+		<ProcessRate>10</ProcessRate>
+		<Cost>300</Cost>
+		<Neighbor>
+			<Name>Santa Fe, NM</Name>
+			<Distance>688</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>St. Louis, MO</Name>
+			<Distance>825</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>New Orleans, LA</Name>
+			<Distance>512</Distance>
+		</Neighbor>
+		<Item>
+			<id>RL123A</id>
+			<quantity>66</quantity>
+		</Item>
+		<Item>
+			<id>RX100-3</id>
+			<quantity>35</quantity>
+		</Item>
+		<Item>
+			<id>SN-241-L</id>
+			<quantity>35</quantity>
+		</Item>
+	</Facility>
+	<Facility>
+		<Name>St. Louis, MO</Name>
+		<ProcessRate>12</ProcessRate>
+		<Cost>300</Cost>
+		<Neighbor>
+			<Name>Chicago, IL</Name>
+			<Distance>297</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Nashville, TN</Name>
+			<Distance>309</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Austin, TX</Name>
+			<Distance>825</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Santa Fe, NM</Name>
+			<Distance>1032</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Denver, CO</Name>
+			<Distance>851</Distance>
+		</Neighbor>
+		<Item>
+			<id>ABC123</id>
+			<quantity>70</quantity>
+		</Item>
+		<Item>
+			<id>SR71-D</id>
+			<quantity>45</quantity>
+		</Item>
+		<Item>
+			<id>PU238</id>
+			<quantity>82</quantity>
+		</Item>
+	</Facility>
+	<Facility>
+		<Name>Chicago, IL</Name>
+		<ProcessRate>10</ProcessRate>
+		<Cost>300</Cost>
+		<Neighbor>
+			<Name>Fargo, ND</Name>
+			<Distance>643</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>St. Louis, MO</Name>
+			<Distance>297</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>New York City, NY</Name>
+			<Distance>790</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Detroit, MI</Name>
+			<Distance>282</Distance>
+		</Neighbor>
+		<Item>
+			<id>ABC123</id>
+			<quantity>60</quantity>
+		</Item>
+		<Item>
+			<id>E241i</id>
+			<quantity>64</quantity>
+		</Item>
+		<Item>
+			<id>CT1928</id>
+			<quantity>20</quantity>
+		</Item>
+		<Item>
+			<id>RTF110</id>
+			<quantity>110</quantity>
+		</Item>
+		<Item>
+			<id>XTP202</id>
+			<quantity>20</quantity>
+		</Item>
+	</Facility>
+	<Facility>
+		<Name>New Orleans, LA</Name>
+		<ProcessRate>10</ProcessRate>
+		<Cost>300</Cost>
+		<Neighbor>
+			<Name>Austin, TX</Name>
+			<Distance>512</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Nashville, TN</Name>
+			<Distance>532</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Atlanta, GA</Name>
+			<Distance>469</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Miami, FL</Name>
+			<Distance>864</Distance>
+		</Neighbor>
+		<Item>
+			<id>MM35P</id>
+			<quantity>100</quantity>
+		</Item>
+		<Item>
+			<id>PU238</id>
+			<quantity>49</quantity>
+		</Item>
+		<Item>
+			<id>ZTF109</id>
+			<quantity>120</quantity>
+		</Item>
+	</Facility>
+	<Facility>
+		<Name>Nashville, TN</Name>
+		<ProcessRate>8</ProcessRate>
+		<Cost>300</Cost>
+		<Neighbor>
+			<Name>St. Louis, MO</Name>
+			<Distance>309</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>New Orleans, LA</Name>
+			<Distance>532</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Norfolk, VA</Name>
+			<Distance>706</Distance>
+		</Neighbor>
+		<Item>
+			<id>RX100-3</id>
+			<quantity>78</quantity>
+		</Item>
+		<Item>
+			<id>XLK200B</id>
+			<quantity>250</quantity>
+		</Item>
+		<Item>
+			<id>CR2032</id>
+			<quantity>366</quantity>
+		</Item>
+		<Item>
+			<id>SN-241-L</id>
+			<quantity>16</quantity>
+		</Item>
+	</Facility>
+	<Facility>
+		<Name>Detroit, MI</Name>
+		<ProcessRate>10</ProcessRate>
+		<Cost>300</Cost>
+		<Neighbor>
+			<Name>Chicago, IL</Name>
+			<Distance>282</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>New York City, NY</Name>
+			<Distance>614</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Boston, MA</Name>
+			<Distance>719</Distance>
+		</Neighbor>
+		<Item>
+			<id>JBL3100</id>
+			<quantity>117</quantity>
+		</Item>
+		<Item>
+			<id>SR71-D</id>
+			<quantity>8</quantity>
+		</Item>
+		<Item>
+			<id>CT1928</id>
+			<quantity>72</quantity>
+		</Item>
+	</Facility>
+	<Facility>
+		<Name>Boston, MA</Name>
+		<ProcessRate>10</ProcessRate>
+		<Cost>300</Cost>
+		<Neighbor>
+			<Name>Detroit, MI</Name>
+			<Distance>719</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>New York City, NY</Name>
+			<Distance>215</Distance>
+		</Neighbor>
+		<Item>
+			<id>MM35P</id>
+			<quantity>47</quantity>
+		</Item>
+		<Item>
+			<id>PL132-C</id>
+			<quantity>83</quantity>
+		</Item>
+		<Item>
+			<id>CT1928</id>
+			<quantity>65</quantity>
+		</Item>
+	</Facility>
+		<Facility>
+		<Name>New York City, NY</Name>
+		<ProcessRate>14</ProcessRate>
+		<Cost>300</Cost>
+		<Neighbor>
+			<Name>Boston, MA</Name>
+			<Distance>215</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Detroit, MI</Name>
+			<Distance>614</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Chicago, IL</Name>
+			<Distance>790</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Norfolk, VA</Name>
+			<Distance>363</Distance>
+		</Neighbor>
+		<Item>
+			<id>RL123A</id>
+			<quantity>12</quantity>
+		</Item>
+		<Item>
+			<id>CR2032</id>
+			<quantity>132</quantity>
+		</Item>
+		<Item>
+			<id>E241i</id>
+			<quantity>72</quantity>
+		</Item>
+		<Item>
+			<id>ZTF109</id>
+			<quantity>28</quantity>
+		</Item>
+	</Facility>
+	<Facility>
+		<Name>Norfolk, VA</Name>
+		<ProcessRate>10</ProcessRate>
+		<Cost>300</Cost>
+		<Neighbor>
+			<Name>New York City, NY</Name>
+			<Distance>363</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Nashville, TN</Name>
+			<Distance>706</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Atlanta, GA</Name>
+			<Distance>566</Distance>
+		</Neighbor>
+		<Item>
+			<id>MM35P</id>
+			<quantity>66</quantity>
+		</Item>
+		<Item>
+			<id>RL123A</id>
+			<quantity>50</quantity>
+		</Item>
+		<Item>
+			<id>XLK200B</id>
+			<quantity>14</quantity>
+		</Item>
+	</Facility>
+	<Facility>
+		<Name>Atlanta, GA</Name>
+		<ProcessRate>10</ProcessRate>
+		<Cost>300</Cost>
+		<Neighbor>
+			<Name>Norfolk, VA</Name>
+			<Distance>566</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>New Orleans, LA</Name>
+			<Distance>469</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>Miami, FL</Name>
+			<Distance>663</Distance>
+		</Neighbor>
+		<Item>
+			<id>RX100-3</id>
+			<quantity>90</quantity>
+		</Item>
+		<Item>
+			<id>E241i</id>
+			<quantity>32</quantity>
+		</Item>
+		<Item>
+			<id>PU238</id>
+			<quantity>120</quantity>
+		</Item>
+	</Facility>
+	<Facility>
+		<Name>Miami, FL</Name>
+		<ProcessRate>12</ProcessRate>
+		<Cost>300</Cost>
+		<Neighbor>
+			<Name>Atlanta, GA</Name>
+			<Distance>663</Distance>
+		</Neighbor>
+		<Neighbor>
+			<Name>New Orleans, LA</Name>
+			<Distance>864</Distance>
+		</Neighbor>
+		<Item>
+			<id>MM35P</id>
+			<quantity>16</quantity>
+		</Item>
+		<Item>
+			<id>JBL3100</id>
+			<quantity>44</quantity>
+		</Item>
+		<Item>
+			<id>SR71-D</id>
+			<quantity>15</quantity>
+		</Item>
+		<Item>
+			<id>SN-241-L</id>
+			<quantity>28</quantity>
+		</Item>
+		<Item>
+			<id>XTP202</id>
+			<quantity>88</quantity>
+		</Item>
+	</Facility>
+</Facilities>
